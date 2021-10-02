@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 1}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -287,7 +287,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 1}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 775194466}
   - component: {fileID: 775194465}
   m_Layer: 0
-  m_Name: LoseTrigger (1)
+  m_Name: LoseTrigger
   m_TagString: LoseTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,7 +504,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 0}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -586,7 +586,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 1}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -936,7 +936,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 0}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -980,6 +980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpstrength: 1
+  isFloating: 0
 --- !u!114 &1345490360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -993,6 +994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portalToLevel: 1
+  currentLevel: 0
 --- !u!114 &1345490361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,6 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialForce: {x: 200, y: 0}
+  portalCollider: {fileID: 0}
 --- !u!1 &1522617218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1172,7 +1175,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 1}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1280,7 +1283,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 1}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1696,7 +1699,7 @@ GameObject:
   - component: {fileID: 1920159533}
   - component: {fileID: 1920159532}
   m_Layer: 0
-  m_Name: LoseTrigger (2)
+  m_Name: LoseTrigger
   m_TagString: LoseTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1768,7 +1771,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 0}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1984,7 +1987,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 90c89520954f09245a1f422b5cdde29a, type: 3}
-  m_Color: {r: 0.9056604, g: 0.5542542, b: 0.508366, a: 1}
+  m_Color: {r: 0.754717, g: 0.3951584, b: 0.3951584, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
